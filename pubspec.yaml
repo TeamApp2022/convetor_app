@@ -1,0 +1,26 @@
+name: convertor_app
+description: Demonstrates how to use the convertor_app plugin.
+version: 0.4.2
+publish_to: 'none'
+
+environment:
+  sdk: '>=2.7.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.3
+  path_provider: ^2.0.2
+  path: ^1.8.0
+  fluttertoast: ^8.0.8
+  video_player: ^2.1.12
+  flutter_ffmpeg: 0.4.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
